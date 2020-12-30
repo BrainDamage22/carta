@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://thymeleaf.org"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://thymeleaf.org
+http://thymeleaf.org ">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+</head>
+<body>
+<div>
+    <p>Montag</p>
+    <form class="md-form" action="#" th:action="@{/admin}" method="post" enctype="multipart/form-data">
+        <div>
+            <input type="file" name="file">
+            <input class="edit_input_hidden" type="text" value="2" name="day" id="montag" readonly style="display: none">
+            <input value="Hochladen" name="upload" type="submit">
+            <input value="Test" name="test" type="submit">
+        </div>
+    </form>
+    <p>Dienstag</p>
+    <form class="md-form" action="#" th:action="@{/admin}" method="post" enctype="multipart/form-data">
+        <div>
+            <input type="file" name="file">
+            <input class="edit_input_hidden" type="text" value="3" name="day" id="dienstag" readonly style="display: none">
+            <input value="Hochladen" name="upload" type="submit">
+            <input value="Test" name="test" type="submit">
+        </div>
+    </form>
+    <p>Mittwoch</p>
+    <form class="md-form" action="#" th:action="@{/admin}" method="post" enctype="multipart/form-data">
+        <div>
+            <input type="file" name="file">
+            <input class="edit_input_hidden" type="text" value="4" name="day" id="mitwoch" readonly style="display: none">
+            <input value="Hochladen" name="upload" type="submit">
+            <input value="Test" name="test" type="submit">
+        </div>
+    </form>
+    <p>Donnerstag</p>
+    <form class="md-form" action="#" th:action="@{/admin}" method="post" enctype="multipart/form-data">
+        <div>
+            <input type="file" name="file">
+            <input class="edit_input_hidden" type="text" value="5" name="day" id="donnerstag" readonly style="display: none">
+            <input value="Hochladen" name="upload" type="submit">
+            <input value="Test" name="test" type="submit">
+        </div>
+    </form>
+    <p>Freitag</p>
+    <form class="md-form" action="#" th:action="@{/admin}" method="post" enctype="multipart/form-data">
+        <div>
+            <input type="file" name="file">
+            <input class="edit_input_hidden" type="text" value="6" name="day" id="freitag" readonly style="display: none">
+            <input value="Hochladen" name="upload" type="submit">
+            <input value="Test" name="test" type="submit">
+        </div>
+    </form>
+    <p>Samstag</p>
+    <form class="md-form" action="#" th:action="@{/admin}" method="post" enctype="multipart/form-data">
+        <div>
+            <input type="file" name="file">
+            <input class="edit_input_hidden" type="text" value="7" name="day" id="samstag" readonly style="display: none">
+            <input value="Hochladen" name="upload" type="submit">
+            <input value="Test" name="test" type="submit">
+        </div>
+    </form>
+    <p>Sonntag</p>
+    <form class="md-form" action="#" th:action="@{/admin}" method="post" enctype="multipart/form-data">
+        <div>
+            <input type="file" name="file">
+            <input class="edit_input_hidden" type="text" value="1" name="day" id="sonntag" readonly style="display: none">
+            <input value="Hochladen" name="upload" type="submit">
+            <input value="Test" name="test" type="submit">
+        </div>
+    </form>
+</div>
+</body>
+</html>
